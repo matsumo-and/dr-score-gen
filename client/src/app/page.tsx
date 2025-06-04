@@ -1,4 +1,5 @@
 import Image from "next/image";
+import PrimaryButton from "./components/PrimaryButton";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
         <div className="flex flex-col items-center gap-4">
           <h1 className="text-4xl sm:text-5xl font-bold text-indigo-800 mb-2">あなたの音楽をスコアに</h1>
           <p className="text-lg text-indigo-600 mb-6">Dr.ScoreGenで簡単に楽譜を作成・管理しましょう</p>
-          <button className="bg-gradient-to-r from-indigo-500 to-blue-500 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:scale-105 transition">新しいスコアを作成</button>
+          <PrimaryButton title="新しいスコアを作成" href="/score/new" />
         </div>
 
         {/* 最近のスコア一覧（ダミー） */}
