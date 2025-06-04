@@ -1,5 +1,5 @@
 import Image from "next/image";
-import PrimaryButton from "./components/PrimaryButton";
+import PrimaryButton from "@/components/PrimaryButton";
 
 export default function Home() {
   return (

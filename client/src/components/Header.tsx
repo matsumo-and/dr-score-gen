@@ -8,9 +8,8 @@ export default function Header() {
         <span className="text-2xl font-bold tracking-tight text-indigo-700">Dr.ScoreGen</span>
       </div>
       <nav className="flex gap-6 text-indigo-700 font-medium">
-        <a href="#" className="hover:underline">ホーム</a>
-        <a href="#" className="hover:underline">マイスコア</a>
-        <a href="#" className="hover:underline">ヘルプ</a>
+        <a href="/" className="hover:underline">Home</a>
+        <a href="/score/new" className="hover:underline">Score</a>
       </nav>
       <button className="bg-indigo-600 text-white px-4 py-2 rounded-lg shadow hover:bg-indigo-700 transition">ログイン</button>
     </header>
