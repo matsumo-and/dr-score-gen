@@ -3,10 +3,7 @@ import PrimaryButton from "./components/PrimaryButton";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-blue-50 to-indigo-100 font-[family-name:var(--font-geist-sans)]">
-
-      {/* メイン */}
-      <main className="flex-1 flex flex-col items-center justify-center py-16 gap-12">
+      <main className="h-full flex-1 flex flex-col items-center justify-center py-16 gap-12">
         {/* メインビジュアル */}
         <div className="flex flex-col items-center gap-4">
           <h1 className="text-4xl sm:text-5xl font-bold text-indigo-800 mb-2">あなたの音楽をスコアに</h1>
@@ -33,6 +30,5 @@ export default function Home() {
           </ul>
         </section>
       </main>
-    </div>
   );
 }
