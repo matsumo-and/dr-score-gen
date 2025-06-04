@@ -9,7 +9,7 @@ export default function Header() {
       </div>
       <nav className="flex gap-6 text-indigo-700 font-medium">
         <a href="/" className="hover:underline">Home</a>
-        <a href="/score/new" className="hover:underline">Score</a>
+        <a href="/score/" className="hover:underline">Score</a>
       </nav>
       <button className="bg-indigo-600 text-white px-4 py-2 rounded-lg shadow hover:bg-indigo-700 transition">ログイン</button>
     </header>
