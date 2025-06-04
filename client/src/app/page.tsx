@@ -3,19 +3,6 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-blue-50 to-indigo-100 font-[family-name:var(--font-geist-sans)]">
-      {/* ヘッダー */}
-      <header className="flex items-center justify-between px-8 py-4 bg-white/80 shadow-md backdrop-blur-md">
-        <div className="flex items-center gap-2">
-          <Image src="/drum-favicon.svg" alt="Logo" width={36} height={36} />
-          <span className="text-2xl font-bold tracking-tight text-indigo-700">Dr.ScoreGen</span>
-        </div>
-        <nav className="flex gap-6 text-indigo-700 font-medium">
-          <a href="#" className="hover:underline">ホーム</a>
-          <a href="#" className="hover:underline">マイスコア</a>
-          <a href="#" className="hover:underline">ヘルプ</a>
-        </nav>
-        <button className="bg-indigo-600 text-white px-4 py-2 rounded-lg shadow hover:bg-indigo-700 transition">ログイン</button>
-      </header>
 
       {/* メイン */}
       <main className="flex-1 flex flex-col items-center justify-center py-16 gap-12">
@@ -45,11 +32,6 @@ export default function Home() {
           </ul>
         </section>
       </main>
-
-      {/* フッター */}
-      <footer className="text-center text-indigo-500 py-4 bg-white/60 text-sm">
-        © 2024 Dr.ScoreGen. All rights reserved.
-      </footer>
     </div>
   );
 }
