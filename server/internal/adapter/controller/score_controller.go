@@ -3,8 +3,9 @@ package controller
 import (
 	"net/http"
 
+	"dr-score-gen/internal/usecase"
+
 	"github.com/gin-gonic/gin"
-	"github.com/matsumo-and/dr-score-gen/internal/usecase"
 )
 
 // ScoreController handles HTTP requests for score operations

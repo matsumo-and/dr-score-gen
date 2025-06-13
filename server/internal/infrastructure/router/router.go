@@ -1,10 +1,11 @@
 package router
 
 import (
+	"dr-score-gen/internal/adapter/controller"
+	"dr-score-gen/internal/infrastructure/persistence/memory"
+	"dr-score-gen/internal/usecase"
+
 	"github.com/gin-gonic/gin"
-	"github.com/matsumo-and/dr-score-gen/internal/adapter/controller"
-	"github.com/matsumo-and/dr-score-gen/internal/infrastructure/persistence/memory"
-	"github.com/matsumo-and/dr-score-gen/internal/usecase"
 )
 
 // NewRouter creates and configures a new router with all dependencies

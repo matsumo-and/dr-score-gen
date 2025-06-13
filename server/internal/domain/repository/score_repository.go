@@ -3,7 +3,7 @@ package repository
 import (
 	"context"
 
-	"github.com/matsumo-and/dr-score-gen/internal/domain/entity"
+	"dr-score-gen/internal/domain/entity"
 )
 
 // ScoreRepository defines the interface for score data operations

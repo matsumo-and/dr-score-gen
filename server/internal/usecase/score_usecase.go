@@ -3,8 +3,8 @@ package usecase
 import (
 	"context"
 
-	"github.com/matsumo-and/dr-score-gen/internal/domain/entity"
-	"github.com/matsumo-and/dr-score-gen/internal/domain/repository"
+	"dr-score-gen/internal/domain/entity"
+	"dr-score-gen/internal/domain/repository"
 )
 
 // ScoreUsecase defines the business logic for score operations
